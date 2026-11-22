@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>เทคโนโลยีที่ Ford ติดตั้งเพื่อช่วยการผลิต</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--ink:#14213d;--mute:#5b6b85;--blue:#003478;--accent:#1e88e5;--line:#dbe3ef;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1626;--card:#16223a;--ink:#eaf0fb;--mute:#9db0cf;--blue:#5aa2f5;--accent:#6bb6ff;--line:#2a3a5a}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans Thai',system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:16px}
+header{background:linear-gradient(135deg,#003478,#1e88e5);color:#fff;border-radius:20px;padding:28px 24px;text-align:center}
+header h1{margin:0 0 6px;font-size:clamp(22px,5vw,34px);font-weight:800}
+header p{margin:0;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:16px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;text-align:center}
+.stat b{display:block;font-size:28px;color:var(--blue)}
+.stat span{font-size:13px;color:var(--mute)}
+h2{font-size:20px;margin:24px 4px 10px;color:var(--blue)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;border-top:5px solid var(--accent)}
+.card .ic{font-size:34px}
+.card h3{margin:6px 0 2px;font-size:18px}
+.card small{color:var(--accent);font-weight:600}
+.card p{margin:8px 0 0;font-size:14.5px}
+.card .how{margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:12px;font-size:14px}
+.how b{color:var(--blue)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.flow div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:8px 12px;font-size:14px;font-weight:600}
+.flow i{font-style:normal;color:var(--accent);font-weight:800}
+footer{margin:20px 4px;font-size:12.5px;color:var(--mute)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>🏭 Ford “Factory of Tomorrow”</h1>
+<p>เทคโนโลยีที่ Ford ติดตั้งเพิ่มเพื่อช่วยในการผลิต และหลักการทำงาน</p>
+</header>
+
+<div class="stats">
+<div class="stat"><b>8</b><span>เทคโนโลยีหลัก</span></div>
+<div class="stat"><b>600+</b><span>หุ่นยนต์ใหม่ที่โรงงาน Cologne EV Center</span></div>
+<div class="stat"><b>1980s</b><span>Ford เริ่มใช้ Additive Manufacturing</span></div>
+<div class="stat"><b>5G</b><span>เครือข่ายส่วนตัวในโรงงาน</span></div>
+</div>
+
+<h2>เทคโนโลยีและวิธีการทำงาน</h2>
+<div class="grid">
+
+<div class="card"><div class="ic">🪞</div><h3>Digital Twin</h3><small>แฝดดิจิทัลของโรงงาน</small>
+<p>แบบจำลองเสมือนของเครื่องจักรและกระบวนการผลิตบนพื้นโรงงานจริง</p>
+<div class="how"><b>ทำงานอย่างไร:</b> รวมข้อมูลบำรุงรักษา คุณภาพ และข้อมูลสดจากเซนเซอร์ IIoT ไว้ในโมเดลเดียว ใช้ออกแบบและทดสอบก่อนติดตั้งจริง และตรวจสอบสถานะแบบเรียลไทม์ ที่โรงงาน Cologne แสดงผลบนจอสัมผัสขนาดใหญ่ ครอบคลุมทุกสถานีงาน</div></div>
+
+<div class="card"><div class="ic">🧠</div><h3>AI และ Machine Learning</h3><small>ปัญญาประดิษฐ์</small>
+<p>ช่วยวิเคราะห์ข้อมูลการผลิตและเชื่อมต่อระบบที่แยกกันอยู่</p>
+<div class="how"><b>ทำงานอย่างไร:</b> เรียนรู้จากข้อมูลเครื่องจักรเพื่อพยากรณ์ความเสียหายก่อนเกิดจริง (Predictive Maintenance) และช่วยลดแรงงานในการเชื่อมข้อมูลเข้า Digital Twin ผ่านระบบ MARS ของ Ford</div></div>
+
+<div class="card"><div class="ic">📡</div><h3>Private 5G Network</h3><small>เครือข่าย 5G ภายในโรงงาน</small>
+<p>เครือข่ายไร้สายความเร็วสูง หน่วงต่ำ ใช้เฉพาะในพื้นที่โรงงาน</p>
+<div class="how"><b>ทำงานอย่างไร:</b> เชื่อมเครื่องจักร หุ่นยนต์ AGV และอุปกรณ์เข้าด้วยกันโดยไม่ต้องเดินสาย จึงปรับสายการผลิตได้เร็ว รองรับการส่งข้อมูลปริมาณมาก เช่น ภาพจากกล้อง และให้ผู้เชี่ยวชาญระยะไกลช่วยแก้ปัญหาได้ (ทดสอบในโครงการ 5GEM ที่ UK)</div></div>
+
+<div class="card"><div class="ic">🤖</div><h3>Cobots (หุ่นยนต์ทำงานร่วมกับคน)</h3><small>Collaborative Robots</small>
+<p>หุ่นยนต์ที่ออกแบบให้ทำงานใกล้ชิดกับพนักงานได้อย่างปลอดภัย</p>
+<div class="how"><b>ทำงานอย่างไร:</b> รับงานที่ยาก ซ้ำซาก หรือไม่ถูกหลักสรีรศาสตร์แทนคน โดยพนักงานยังควบคุมและทำงานส่วนที่ต้องใช้ทักษะ Ford ใช้ในหลายโรงงาน</div></div>
+
+<div class="card"><div class="ic">🦾</div><h3>Exoskeleton</h3><small>โครงรองรับร่างกาย</small>
+<p>อุปกรณ์สวมใส่ช่วยพยุงร่างกายผู้ปฏิบัติงาน</p>
+<div class="how"><b>ทำงานอย่างไร:</b> ช่วยรับน้ำหนักแขนและไหล่เวลาทำงานเหนือศีรษะ ลดความเมื่อยล้าและความเสี่ยงบาดเจ็บ</div></div>
+
+<div class="card"><div class="ic">🖨️</div><h3>Additive Manufacturing (3D Printing)</h3><small>การพิมพ์ 3 มิติ</small>
+<p>สร้างชิ้นงานโดยเพิ่มวัสดุทีละชั้นจากแบบดิจิทัล</p>
+<div class="how"><b>ทำงานอย่างไร:</b> พิมพ์ต้นแบบ อุปกรณ์จับยึด (jig/fixture) และชิ้นส่วนใช้งานได้รวดเร็ว ไม่ต้องทำแม่พิมพ์ ปัจจุบันใช้เกินกว่าการทำต้นแบบ</div></div>
+
+<div class="card"><div class="ic">🥽</div><h3>VR / AR (Extended Reality)</h3><small>ความจริงเสมือน/เสริม</small>
+<p>จำลองสถานีงานและฝึกอบรมโดยไม่ต้องหยุดสายการผลิต</p>
+<div class="how"><b>ทำงานอย่างไร:</b> สวมแว่นเพื่อทดสอบการวางสถานีงานจากโมเดลดิจิทัล ฝึกพนักงานแบบเสมือน และให้ผู้เชี่ยวชาญระยะไกลมองเห็นภาพเดียวกับหน้างานผ่าน 5G</div></div>
+
+<div class="card"><div class="ic">🌐</div><h3>IIoT และ Vision System</h3><small>อินเทอร์เน็ตของสรรพสิ่งในอุตสาหกรรม</small>
+<p>เซนเซอร์และกล้องติดตามเครื่องจักรและคุณภาพตลอดเวลา</p>
+<div class="how"><b>ทำงานอย่างไร:</b> เซนเซอร์ส่งข้อมูลขึ้น Cloud/Edge ประมวลผลภาพตรวจคุณภาพก่อน ระหว่าง และหลังผลิต แล้วแจ้งเตือนเมื่อพบความผิดปกติ</div></div>
+
+</div>
+
+<h2>ภาพรวมการทำงานร่วมกัน</h2>
+<div class="flow">
+<div>เซนเซอร์ IIoT / กล้อง</div><i>→</i>
+<div>เครือข่าย 5G</div><i>→</i>
+<div>Cloud / Edge + AI</div><i>→</i>
+<div>Digital Twin</div><i>→</i>
+<div>หุ่นยนต์ / Cobots / พนักงาน</div>
+</div>
+
+<h2>ประโยชน์ที่ได้รับ</h2>
+<div class="grid">
+<div class="stat"><b>✔</b><span>คุณภาพสูงขึ้นจากการตรวจสอบทุกขั้นตอน</span></div>
+<div class="stat"><b>✔</b><span>เปลี่ยนสายการผลิตได้เร็วและยืดหยุ่น</span></div>
+<div class="stat"><b>✔</b><span>ลดเครื่องจักรหยุดกะทันหัน</span></div>
+<div class="stat"><b>✔</b><span>พนักงานปลอดภัยขึ้น และประหยัดพลังงาน/น้ำ</span></div>
+</div>
+
+<footer>แหล่งข้อมูล: IndustryWeek (Ford Advanced Manufacturing), GSMA 5G IoT Case Study – Ford &amp; Vodafone, Assembly Magazine (Ford Cologne EV Center, 2024), University of Michigan Tauber Institute (Ford Digital Twin), Ford R&amp;A Europe (AMS 2022)</footer>
+</div>
+</body>
+</html>
